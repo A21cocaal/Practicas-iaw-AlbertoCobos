@@ -6,3 +6,5 @@
 [Enlace a documento](./Practica4-3V2.md)
 ### Práctica Instalar Wordpress en una arquitectura de tres niveles V.3.0
 [Enlace a documento](./Practica4.3V3.md)
+### Práctica Despliegue de una base de datos Multi AZ
+[Enlace a documento](./PRACTICA4-4.md)

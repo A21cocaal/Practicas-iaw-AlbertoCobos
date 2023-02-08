@@ -70,3 +70,48 @@ Y el balanceador tendrá acceso público a http
 
 ![](./imagenes/Aspose.Words.a73ab31d-213c-46ca-8535-d3a8d03ed425.012.png)
 
+# **Servidor nfs**
+
+Lo instalaremos el servidor nfs en la maquina NFS
+
+![](./imagenes/Aspose.Words.a73ab31d-213c-46ca-8535-d3a8d03ed425.013.png)
+#
+
+# **Cliente nfs**
+Instalaremos nfs-common en los clientes
+
+![](./imagenes/Aspose.Words.a73ab31d-213c-46ca-8535-d3a8d03ed425.014.png)
+
+# **Archivo exports**
+
+Pondremos lo siguiente en el archivo /etc/exports
+
+Pondremos la línea por cada cliente que vaya a usar nfs
+
+![](./imagenes/Aspose.Words.a73ab31d-213c-46ca-8535-d3a8d03ed425.015.png)
+
+Ahora reiniciaremos el servicio
+
+![](./imagenes/Aspose.Words.a73ab31d-213c-46ca-8535-d3a8d03ed425.016.png)
+
+# **Creación de punto de montaje para el cliente NFS**
+
+Haremos eso en todos los clientes
+
+![](./imagenes/Aspose.Words.8747ee55-9aa1-49cc-a349-64c1c96b7d69.001.png)
+
+Y para comprobar que se ha montado correctamente usamos el comando df -h para ver si se ha montado
+
+![](./imagenes/Aspose.Words.8747ee55-9aa1-49cc-a349-64c1c96b7d69.003.png)
+
+Para hacer que se monte cada vez que se inicie la maquina pondremos esta línea en el /etc/fstab para que se monte automáticamente al iniciar
+
+![](./imagenes/Aspose.Words.8747ee55-9aa1-49cc-a349-64c1c96b7d69.005.png)
+
+Y por último instalaremos WordPress en el nfs
+
+![](./imagenes/Aspose.Words.8747ee55-9aa1-49cc-a349-64c1c96b7d69.006.png)
+
+
+
+
