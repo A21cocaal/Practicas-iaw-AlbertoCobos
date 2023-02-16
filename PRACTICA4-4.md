@@ -42,7 +42,7 @@ Y crearemos un grupo de seguridad con el puerto de mysql habilitado dentro de un
 
 Añadiremos el grupo de seguridad de nuestros servidores web para que solo ellos tengan acceso
 
-![](Aspose.Words.000816ac-892b-455d-88b8-2f8a3e405a4e.008.png)
+![](./imagenes/Aspose.Words.000816ac-892b-455d-88b8-2f8a3e405a4e.008.png)
 # **Instalación y configuración maquina Windows**
 Creación de máquina Windows
 
